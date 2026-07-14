@@ -113,20 +113,27 @@ steps.forEach(id => {
   if (section) observer.observe(section);
 });
 
-whatsappBtn.addEventListener('click', () => {
-  if (!(state.template && state.color)) return;
-  const mensagem = `Olá! Quero continuar a criação da minha Landing Page.
+whatsappBtn.addEventListener('click', event => {
+  event.preventDefault();
 
-` +
-    `Modelo escolhido: ${state.template}
-` +
-    `Cor principal: ${state.color}
+  if (!state.template || !state.color) {
+    alert('Escolha um modelo e uma cor antes de continuar.');
+    return;
+  }
 
-` +
-    `Agora podemos continuar com logo, textos, fotos e demais informações.`;
-  window.location.href = `https://wa.me/${CONFIG.whatsappNumber}?text=${encodeURIComponent(mensagem)}`;
+  const numero = CONFIG.whatsappNumber.replace(/\D/g, '');
+
+  const mensagem = [
+    'Olá! Quero continuar a criação da minha Landing Page.',
+    '',
+    `Modelo escolhido: ${state.template}`,
+    `Cor principal: ${state.color}`,
+    '',
+    'Agora podemos continuar com logo, textos, fotos e demais informações.'
+  ].join('\n');
+
+  const linkWhatsApp =
+    `https://api.whatsapp.com/send?phone=${numero}&text=${encodeURIComponent(mensagem)}`;
+
+  window.open(linkWhatsApp, '_blank', 'noopener,noreferrer');
 });
-
-updateAccent(state.hex);
-updatePreview();
-updateSummary();
