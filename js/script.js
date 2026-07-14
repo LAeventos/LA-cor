@@ -1,6 +1,6 @@
 // CONFIGURAÇÕES DO LA BUILDER
 const CONFIG = {
-  whatsappNumber: '5511999999999'
+  whatsappNumber: '5511916509898'
 };
 
 const state = {
