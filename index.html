@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Configurador de Landing Page | LA Eventos</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <header class="top-progress" aria-label="Progresso do configurador">
+    <div class="progress-track">
+      <button class="progress-step active" data-target="modelos" type="button"><span>1</span><small>Modelo</small></button>
+      <button class="progress-step" data-target="cores" type="button"><span>2</span><small>Cores</small></button>
+      <button class="progress-step" data-target="preview" type="button"><span>3</span><small>Prévia</small></button>
+      <button class="progress-step" data-target="resumo" type="button"><span>4</span><small>WhatsApp</small></button>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="hero" id="inicio">
+      <div class="logo-area">
+        <img src="logo.png" alt="Logo LA Eventos" class="brand-logo" />
+        <p class="brand-kicker">LA builder</p>
+      </div>
+
+      <h1>Configure sua Landing Page</h1>
+      <p class="hero-text">
+        Escolha entre os 16 modelos, defina a cor principal e veja uma prévia antes de continuar o atendimento pelo WhatsApp.
+      </p>
+      <button class="primary-btn" type="button" data-target="modelos">Começar agora</button>
+    </section>
+
+    <section class="config-section" id="modelos">
+      <div class="section-heading">
+        <span class="step-label">Etapa 1</span>
+        <h2>Escolha o modelo visual</h2>
+        <p>Selecione o estilo que mais combina com o tipo de site que você quer.</p>
+        <div class="notice-pill">Escolha o modelo que sua landing vai ter.</div>
+      </div>
+
+      <div class="template-grid" aria-label="Modelos de landing page">
+        <article class="template-card" data-template="Modelo 01 — Original" data-layout="original" tabindex="0">
+          <div class="template-number">01</div>
+          <div class="template-preview mini mini-clean">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 01 — Original</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 02 — Clean" data-layout="clean" tabindex="0">
+          <div class="template-number">02</div>
+          <div class="template-preview mini mini-clean">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 02 — Clean</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 03 — Premium Escuro" data-layout="dark" tabindex="0">
+          <div class="template-number">03</div>
+          <div class="template-preview mini mini-dark">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 03 — Premium Escuro</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 04 — Corporativo Azul" data-layout="corporate" tabindex="0">
+          <div class="template-number">04</div>
+          <div class="template-preview mini mini-corporate">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 04 — Corporativo Azul</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 05 — Natural" data-layout="natural" tabindex="0">
+          <div class="template-number">05</div>
+          <div class="template-preview mini mini-natural">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 05 — Natural</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 06 — Criativo Roxo" data-layout="creative" tabindex="0">
+          <div class="template-number">06</div>
+          <div class="template-preview mini mini-creative">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 06 — Criativo Roxo</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 07 — Glass" data-layout="glass" tabindex="0">
+          <div class="template-number">07</div>
+          <div class="template-preview mini mini-glass">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 07 — Glass</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 08 — Neon" data-layout="neon" tabindex="0">
+          <div class="template-number">08</div>
+          <div class="template-preview mini mini-neon">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 08 — Neon</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 09 — Luxury" data-layout="luxury" tabindex="0">
+          <div class="template-number">09</div>
+          <div class="template-preview mini mini-luxury">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 09 — Luxury</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 10 — Organic" data-layout="organic" tabindex="0">
+          <div class="template-number">10</div>
+          <div class="template-preview mini mini-organic">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 10 — Organic</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 11 — Editorial" data-layout="editorial" tabindex="0">
+          <div class="template-number">11</div>
+          <div class="template-preview mini mini-editorial">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 11 — Editorial</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 12 — Midnight" data-layout="midnight" tabindex="0">
+          <div class="template-number">12</div>
+          <div class="template-preview mini mini-midnight">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 12 — Midnight</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 13 — Aurora" data-layout="aurora" tabindex="0">
+          <div class="template-number">13</div>
+          <div class="template-preview mini mini-aurora">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 13 — Aurora</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 14 — Cyberpunk" data-layout="cyberpunk" tabindex="0">
+          <div class="template-number">14</div>
+          <div class="template-preview mini mini-cyberpunk">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 14 — Cyberpunk</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 15 — Obsidian" data-layout="obsidian" tabindex="0">
+          <div class="template-number">15</div>
+          <div class="template-preview mini mini-obsidian">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 15 — Obsidian</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+
+        <article class="template-card" data-template="Modelo 16 — Black Diamond" data-layout="black-diamond" tabindex="0">
+          <div class="template-number">16</div>
+          <div class="template-preview mini mini-black-diamond">
+            <div class="mini-nav"><span></span><span></span><span></span></div>
+            <div class="mini-hero"><b></b><p></p><button></button></div>
+            <div class="mini-services"><i></i><i></i><i></i></div>
+            <div class="mini-blocks"><span></span><span></span></div>
+          </div>
+          <div class="template-info"><strong>Modelo 16 — Black Diamond</strong></div>
+          <div class="template-actions"><button class="select-template" type="button">Selecionar</button></div>
+        </article>
+      </div>
+
+      <p class="helper-text locked-text">Selecione um modelo para continuar</p>
+    </section>
+
+    <section class="config-section locked" id="cores">
+      <div class="section-heading">
+        <span class="step-label">Etapa 2</span>
+        <h2>Escolha a cor principal</h2>
+        <p>Essa cor será usada nos botões, detalhes, destaques e elementos visuais da sua Landing Page.</p>
+      </div>
+
+      <div class="color-grid" aria-label="Paletas de cores">
+        <button class="color-card" type="button" data-color="Azul" data-hex="#2563ff"><span style="--swatch:#2563ff"></span>Azul</button>
+        <button class="color-card" type="button" data-color="Preto" data-hex="#111827"><span style="--swatch:#111827"></span>Preto</button>
+        <button class="color-card" type="button" data-color="Roxo" data-hex="#8b5cf6"><span style="--swatch:#8b5cf6"></span>Roxo</button>
+        <button class="color-card" type="button" data-color="Verde" data-hex="#22c55e"><span style="--swatch:#22c55e"></span>Verde</button>
+        <button class="color-card" type="button" data-color="Vermelho" data-hex="#ef233c"><span style="--swatch:#ef233c"></span>Vermelho</button>
+        <button class="color-card" type="button" data-color="Laranja" data-hex="#f97316"><span style="--swatch:#f97316"></span>Laranja</button>
+        <button class="color-card" type="button" data-color="Dourado" data-hex="#d4af37"><span style="--swatch:#d4af37"></span>Dourado</button>
+        <button class="color-card" type="button" data-color="Rosa" data-hex="#ec4899"><span style="--swatch:#ec4899"></span>Rosa</button>
+      </div>
+
+      <p class="helper-text locked-text">Escolha uma cor para liberar a próxima etapa</p>
+    </section>
+
+    <section class="config-section locked" id="preview">
+      <div class="section-heading">
+        <span class="step-label">Etapa 3</span>
+        <h2>Veja uma prévia personalizada</h2>
+        <p>A prévia mostra o estilo escolhido com a cor principal aplicada. Logo, textos, imagens e demais informações serão solicitados depois.</p>
+      </div>
+
+      <div class="browser-preview" id="browserPreview">
+        <div class="fake-browser-bar">
+          <div class="browser-dots"><span></span><span></span><span></span></div>
+          <div class="fake-url">🔒 landing-preview.laeventos.com</div>
+        </div>
+
+        <div class="landing-preview" id="landingPreview" data-template="original">
+          <div class="real-page-shell">
+            <header class="real-hero">
+              <div class="real-logo">SUA LOGO</div>
+              <p class="real-brand">Sua Empresa</p>
+              <p class="real-slogan">Eventos • Experiências • Momentos</p>
+              <h3>Escolha as opções para o seu evento</h3>
+              <p class="real-intro">Veja as opções disponíveis, selecione o que mais combina com seu evento e envie o pedido de orçamento.</p>
+            </header>
+
+            <section class="real-equipment-section">
+              <div class="real-section-heading">
+                <span>Equipamentos</span>
+                <h4>Conheça nossas opções</h4>
+              </div>
+
+              <div class="real-equipment-grid">
+                <article class="real-equipment-card"><div class="real-card-image">Imagem</div><div class="real-card-info"><b>Equipamento 1</b><p>Descrição da opção.</p></div><button>Ver opções e detalhes</button></article>
+                <article class="real-equipment-card"><div class="real-card-image">Imagem</div><div class="real-card-info"><b>Equipamento 2</b><p>Descrição da opção.</p></div><button>Ver opções e detalhes</button></article>
+                <article class="real-equipment-card"><div class="real-card-image">Imagem</div><div class="real-card-info"><b>Equipamento 3</b><p>Descrição da opção.</p></div><button>Ver opções e detalhes</button></article>
+                <article class="real-equipment-card"><div class="real-card-image">Imagem</div><div class="real-card-info"><b>Equipamento 4</b><p>Descrição da opção.</p></div><button>Ver opções e detalhes</button></article>
+              </div>
+            </section>
+
+            <section class="real-budget-section">
+              <div class="real-section-heading">
+                <span>Orçamento</span>
+                <h4>Conte os detalhes do seu evento</h4>
+              </div>
+              <div class="real-form-grid">
+                <div>Nome</div><div>Telefone</div><div>Tipo de evento</div><div>Data do evento</div>
+                <div class="real-form-full">Mensagem adicional</div>
+                <button class="real-submit">Enviar orçamento pelo WhatsApp</button>
+              </div>
+            </section>
+
+            <footer class="real-footer"><b>Sua Empresa</b><span>Atendimento em sua região</span></footer>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="config-section locked" id="resumo">
+      <div class="section-heading">
+        <span class="step-label">Etapa 4</span>
+        <h2>Resumo do seu projeto</h2>
+        <p>Confira sua escolha e envie para continuarmos o atendimento pelo WhatsApp.</p>
+      </div>
+
+      <div class="summary-card compact-summary">
+        <div>
+          <span>Modelo visual</span>
+          <strong id="summaryTemplate">—</strong>
+        </div>
+        <div>
+          <span>Cor principal</span>
+          <strong id="summaryColor">—</strong>
+        </div>
+      </div>
+
+      <p class="summary-note">Logo, textos, fotos e informações do projeto serão solicitados depois pelo WhatsApp.</p>
+
+      <button class="whatsapp-btn" id="whatsappBtn" type="button" disabled>
+        Solicitar orçamento pelo WhatsApp
+      </button>
+    </section>
+
+    <footer class="site-footer">
+      <p>© 2026 LA Eventos • Configurador de Landing Pages</p>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
